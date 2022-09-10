@@ -27,9 +27,10 @@ Bot = Client(
 
 db = Database()
 
-START_TEXT = """ `Hai {}, 
+START_TEXT = """ `Hello {}, 
 Am a YouTube Downloader Bot I Can Download Songs,Videos and Lyrics From YouTube and lyrics and  Would upload into Telegram. 
-Use /help Commands For More.`
+Use /help Commands For More.
+Maintained by @STBOTZ`
 """
 
 CMDS_TEXT = """
@@ -53,12 +54,10 @@ CMDS_TEXT = """
 
 ABOUT_TEXT = """
 - **Bot :** `Song Downloader`
-- **Creator :** [MR-JINN-OF-TG](https://Github.com/MR-JINN-OF-TG)
-- **Support :** [CLICK HERE](https://telegram.me/NAZRIYASUPPORT)
-- **Source :** [CLICK HERE](https://github.com/MR-JINN-OF-TG/Song-Downloader)
+- **Creator :** [S_Tiwari](https://Github.com/STBOTZ)
+- **Support :** [CLICK HERE](https://telegram.me/STBOTZ)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram](https://pyrogram.org)
-- **Server :** [Heroku](https://heroku.com)
 
 """
 START_BUTTONS = InlineKeyboardMarkup(
