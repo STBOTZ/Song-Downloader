@@ -36,4 +36,4 @@ A BOT TO DOWNLOAD SONGS FROM YOUTUBE.
 
 # support Group
 
-- [Click Here To Reach Our Support Group](https://t.me/ST_BOTZ) 
+- [Support Group](https://t.me/ST_BOTZ) 
