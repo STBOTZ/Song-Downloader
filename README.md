@@ -19,11 +19,6 @@ A BOT TO DOWNLOAD SONGS FROM YOUTUBE.
 - Inline YouTube serch. 
 - Broadcast Message To users. 
 
-# Credits 
-
-- [Oxidisedman](https://github.com/Oxidisedman). 
-- [Muhammed](https://github.com/PR0FESS0R-99). 
-- [Pyrogram](https://github.com/pyrogram/pyrogram) and For [Me](https://github.com/MR-JINN-OF-TG). 
 
 
 # Deploy To Heroku
@@ -31,17 +26,14 @@ A BOT TO DOWNLOAD SONGS FROM YOUTUBE.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/MR-JINN-OF-TG/Song-Downloader">
+<a href="https://heroku.com/deploy?template=https://github.com/STBOTZ/Song-Downloader">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
 </details>
 
-# Deploy To Heroku Tutorial 
-
-[CLICK HERE TO WATCH THE VIDEO](https://youtu.be/JEEBTAZFQH0) 
 
 
 # support Group
 
-- [Click Here To Reach Our Support Group](https://t.me/NAZRIYASUPPORT) 
+- [Click Here To Reach Our Support Group](https://t.me/ST_BOTZ) 
