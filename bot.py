@@ -55,7 +55,7 @@ CMDS_TEXT = """
 
 ABOUT_TEXT = """
 - **Bot :** `Song Downloader`
-- **Creator :** [S_Tiwari](https://Github.com/STBOTZ)
+- **Creator :** [S_Tiwari](https://t.me/STBOTZHELP)
 - **Support :** [CLICK HERE](https://telegram.me/STBOTZ)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram](https://pyrogram.org)
