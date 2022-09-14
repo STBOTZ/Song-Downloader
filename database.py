@@ -3,7 +3,7 @@ import os
 import motor.motor_asyncio # pylint: disable=import-error
 from config import Config
 
-DB_NAME = os.environ.get("DB_NAME", "NAZRIYASONG")
+DB_NAME = os.environ.get("DB_NAME", "STBOTZ")
 
 class Database:
 
