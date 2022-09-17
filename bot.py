@@ -17,6 +17,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, 
 from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, PeerIdInvalid
 from pyrogram.errors.exceptions.bad_request_400 import PeerIdInvalid
 
+# This is By @DKBOTZ
+from dkbotz.forcesub import force_sub
+
 
 Bot = Client(
     "Song Downloader Bot",
