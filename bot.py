@@ -20,7 +20,11 @@ from pyrogram.errors.exceptions.bad_request_400 import PeerIdInvalid
 # This is By @DKBOTZ
 from dkbotz.forcesub import force_sub
 
+
+
 channel = os.environ["CHANNEL"]
+
+ft = f"Due To Overload Only Channel Sub Are Use This Bot Join @{channel}."
 
 Bot = Client(
     "Song Downloader Bot",
