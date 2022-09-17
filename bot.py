@@ -131,14 +131,18 @@ async def start(c, m):
     )
 
 @Bot.on_message(filters.private & filters.command(["about"]))
-async def about(bot, update):
-    await update.reply_text(
+async def about(c, m):
+    Fsub = await force_sub(c, m, channel, ft)
+    if Fsub == True:
+        return
+    await m.reply_text(
         text=ABOUT_TEXT,
         disable_web_page_preview=True,
         reply_markup=ABOUT_BUTTONS
     )
 @Bot.on_message(filters.private & filters.command("status"), group=5)
 async def status(bot, update):
+	
     total_users = await db.total_users_count()
     text = "**Music Bot Status**\n"
     text += f"\n**Total Users hit start:** `{total_users}`"
