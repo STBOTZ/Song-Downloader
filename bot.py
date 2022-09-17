@@ -20,6 +20,7 @@ from pyrogram.errors.exceptions.bad_request_400 import PeerIdInvalid
 # This is By @DKBOTZ
 from dkbotz.forcesub import force_sub
 
+channel = os.environ["CHANNEL"]
 
 Bot = Client(
     "Song Downloader Bot",
@@ -113,12 +114,14 @@ async def cb_handler(bot, update):
 
         
 @Bot.on_message(filters.private & filters.command(["start"]))
-async def start(bot, update):
-    if not await db.is_user_exist(update.from_user.id):
+async def start(c, m):
+    if not await db.is_user_exist(m.from_user.id):
         await db.add_user(update.from_user.id)  
-
-    await update.reply_text(
-        text=START_TEXT.format(update.from_user.mention),
+    Fsub = await force_sub(c, m, channel, ft)
+    if Fsub == True:
+        return
+    await m.reply_text(
+        text=START_TEXT.format(m.from_user.mention),
         disable_web_page_preview=True,
 	reply_markup=START_BUTTONS
     )
