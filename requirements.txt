@@ -1,4 +1,4 @@
-stbotz # Don't Laugh 😂 
+stbotz
 Pyrogram==1.2.9
 TgCrypto==1.2.2
 youtube_dl
