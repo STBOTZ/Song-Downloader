@@ -1,4 +1,4 @@
-stbotz
+s
 Pyrogram==1.2.9
 TgCrypto==1.2.2
 youtube_dl
@@ -7,7 +7,7 @@ youtube_search
 requests
 ffmpeg-python
 motor
-aiofiles
+aiofile
 dnspython
 pymongo
 lyricsgenius
