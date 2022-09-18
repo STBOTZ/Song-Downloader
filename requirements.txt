@@ -1,4 +1,4 @@
-
+dkbotz # Don't Laugh 😂 And Don't remove 
 Pyrogram==1.2.9
 TgCrypto==1.2.2
 youtube_dl
@@ -13,3 +13,4 @@ pymongo
 lyricsgenius
 wget
 yt_dlp
+aiofiles
