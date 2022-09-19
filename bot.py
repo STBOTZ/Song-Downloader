@@ -120,7 +120,7 @@ async def cb_handler(bot, update):
 @Bot.on_message(filters.private & filters.command(["start"]))
 async def start(c, m):
     if not await db.is_user_exist(m.from_user.id):
-        await db.add_user(update.from_user.id)  
+        await db.add_user(m.from_user.id)  
     Fsub = await force_sub(c, m, channel, ft)
     if Fsub == True:
         return
