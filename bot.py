@@ -18,7 +18,7 @@ from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, Peer
 from pyrogram.errors.exceptions.bad_request_400 import PeerIdInvalid
 
 # This is By @STBOTZ
-from dkbotz.forcesub import force_subs
+from dkbotz.forcesub import force_subs, force_sub
 
 
 
@@ -121,7 +121,7 @@ async def cb_handler(bot, update):
 async def start(c, m):
     if not await db.is_user_exist(m.from_user.id):
         await db.add_user(m.from_user.id)  
-    Fsub = await force_sub(c, m, channel, ft)
+    Fsub = await force_subs(c, m, channel, ft)
     if Fsub == True:
         return
     await m.reply_text(
