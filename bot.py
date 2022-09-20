@@ -18,7 +18,7 @@ from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, Peer
 from pyrogram.errors.exceptions.bad_request_400 import PeerIdInvalid
 
 # This is By @STBOTZ
-from dkbotz.forcesub import force_subs, force_sub
+from stbotz.forcesub import force_subs, force_sub
 
 
 
@@ -39,7 +39,7 @@ START_TEXT = """ `Hello {},
 Am a YouTube Downloader Bot I Can Download Songs,Videos and Lyrics From YouTube and lyrics and  Would upload into Telegram. 
 Use /help Commands For More.
 
-Maintained by @STBOTZ`
+Maintained by STBOTZ`
 """
 
 CMDS_TEXT = """
