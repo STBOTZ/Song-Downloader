@@ -1,4 +1,4 @@
-stbotz # Don't Laugh 😂 And Don't remove (Remove mat karana Varn forcesub work nahi karega))
+stbotz 
 Pyrogram==1.2.9
 TgCrypto==1.2.2
 youtube_dl
