@@ -18,7 +18,7 @@ from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, Peer
 from pyrogram.errors.exceptions.bad_request_400 import PeerIdInvalid
 
 # This is By @STBOTZ
-from stbotz.forcesub import force_subs, force_sub
+from dkbotz.forcesub import force_subs, force_sub
 
 
 
